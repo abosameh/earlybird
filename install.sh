@@ -32,6 +32,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
         cp binaries/go-earlybird $LOCALBINDIR/go-earlybird
         else
         #Copy Linux bin
+        chmod u+x binaries/go-earlybird-linux
         cp binaries/go-earlybird-linux $LOCALBINDIR/go-earlybird
         fi
 
