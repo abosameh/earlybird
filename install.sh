@@ -33,7 +33,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
         else
         #Copy Linux bin
         chmod u+x binaries/go-earlybird-linux
-        cp binaries/go-earlybird-linux $LOCALBINDIR/go-earlybird
+        sudo cp binaries/go-earlybird-linux $LOCALBINDIR/go-earlybird
         fi
 
 echo Updating permissions
