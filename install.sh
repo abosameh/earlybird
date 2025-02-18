@@ -23,7 +23,8 @@ LOCALBINDIR="/usr/local/bin"
 if [ ! -d "$CONFIGDIR" ]; then
   mkdir -p "$CONFIGDIR"
 fi
-
+#Building Linux binary
+bash build.sh 
 # Pull the binary
 echo Copying executable
 if [[ "$OSTYPE" == "darwin"* ]]; then
